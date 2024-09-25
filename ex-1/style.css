@@ -168,3 +168,65 @@ h3 {
 }
 
 /* Start coding here */
+
+/* for mobile  */
+
+@media only screen and (max-width: 375px) {
+  .topic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+    height: 20vh;
+    margin-top: 5vh;
+  }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    min-width: 375px;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .row-1,
+  .row-2 {
+    display: flex;
+    width: 375px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* for tablet  */
+
+@media only screen and (min-width: 376px) and (max-width: 834px) {
+  .topic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 834px;
+    height: 20vh;
+    margin-top: 5vh;
+  }
+
+  .categories {
+    display: flex;
+    flex-direction: column;
+    max-width: 834px;
+    min-width: 834px;
+    width: 100vw;
+    height: 100%;
+  }
+
+  .row-1,
+  .row-2 {
+    display: flex;
+    width: 834px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
